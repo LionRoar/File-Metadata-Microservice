@@ -1,0 +1,24 @@
+{
+  "name": "filemetadatamicroservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LionRoar/File-Metadata-Microservice.git"
+  },
+  "author": "LionRoar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LionRoar/File-Metadata-Microservice/issues"
+  },
+  "homepage": "https://github.com/LionRoar/File-Metadata-Microservice#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "multer": "^1.3.0"
+  }
+}

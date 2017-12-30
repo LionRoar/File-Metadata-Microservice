@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Request Header Parser Microservice</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    </head>
+    <body>
+      <div id="main">
+          <h1>File Metadata Microservice</h1>
+          <div class="container">
+
+          <h2>File Upload</h2>
+          <form action="/get-sz"  method="POST" enctype="multipart/form-data">
+         <div class="file-field input-field">
+           <div class="btn grey">
+             <span>File</span>
+             <input id="file" type="file" name="file">
+           </div>
+           <div class="file-path-wrapper">
+             <input class="file-path validate" type="text">
+           </div>
+           <button id="upload" type="submit" class="btn">Upload</button>
+         </div>
+        </form>
+        </div>
+        </div>
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script src="./client.js"></script>
+    </body>
+    <footer>
+      <a href="https://twitter.com/RoardiLeone">
+        Twitter <em>@RoardiLeone</em>
+      </a>
+    </footer>
+</html>
